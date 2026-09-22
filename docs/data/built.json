@@ -1,0 +1,78 @@
+[
+  {
+    "id": "aeon",
+    "name": "AEON",
+    "date": "2025 – Present",
+    "summary": "My flagship system: a 240-module Python backend with a live React dashboard that ingests market data around the clock, runs a governed engine architecture, and turns raw data into plain-English briefings.",
+    "fullDescription": [
+      "AEON is the system I've poured the most into. Underneath it is a 240-module Python backend (FastAPI + asyncio) running as production systemd services on Ubuntu, exposing 54 REST route modules to a live React operations dashboard — command center, analytics, regime performance, and alerts.",
+      "It's built for autonomy and safety: a central engine registry, an app-state singleton, a governance/kill-switch layer, and a self-healing watchdog with heartbeats. Async workers run on their own timers — market scans every few minutes, neural inference hourly, scheduled briefings. It stores ~900k documents in MongoDB and streams and scores Level 2 order-book data across exchanges.",
+      "The end goal I care about most is the 'understanding layer': taking all of that raw market data and turning it into clear, plain-English briefings I can actually reason from."
+    ],
+    "responsibilities": [
+      "240-module Python backend (FastAPI + asyncio) as production systemd services",
+      "54-module REST API feeding a real-time React dashboard",
+      "Engine registry, governance/kill-switch layer, and self-healing watchdog with heartbeats",
+      "~900k-document MongoDB store with real-time order-book ingestion and scoring",
+      "Async workers on independent timers plus plain-English research briefings"
+    ],
+    "technologies": ["Python", "FastAPI", "asyncio", "React", "MongoDB", "systemd", "Ubuntu"],
+    "link": "https://aeontrading.xyz",
+    "images": []
+  },
+  {
+    "id": "freeflow",
+    "name": "freeflow",
+    "date": "2026",
+    "summary": "A private, on-device Windows voice-dictation app — local transcription with faster-whisper, optional Ollama cleanup, a global hotkey, native UI, and a packaged Windows installer.",
+    "fullDescription": [
+      "freeflow is a shipped desktop product: a private, fully on-device voice-dictation app for Windows. Everything runs locally — faster-whisper handles transcription on-device, with optional Ollama-based text cleanup — so nothing has to leave your machine.",
+      "It has a global hotkey, a native UI, and a packaged Windows installer with proper release management. It's a complete, end-to-end product rather than a script: built in Python, packaged, and released."
+    ],
+    "responsibilities": [
+      "On-device transcription with faster-whisper (no cloud dependency)",
+      "Optional local text cleanup via Ollama",
+      "Global hotkey and native Windows UI",
+      "Packaged Windows installer with release management"
+    ],
+    "technologies": ["Python", "faster-whisper", "Ollama", "Windows", "Packaging / installers"],
+    "link": "",
+    "images": []
+  },
+  {
+    "id": "tovar-terminal",
+    "name": "TOVAR Mobile Terminal",
+    "date": "2026",
+    "summary": "A custom browser-based mobile terminal that lets me manage my production servers from my phone over a live tmux session.",
+    "fullDescription": [
+      "TOVAR is a custom web terminal (Node.js + xterm.js, backed by tmux) that gives me full, comfortable control of my servers from a phone browser — scrollback, multiple windows, and touch-friendly controls.",
+      "It's also a good example of how I debug: a long-standing 'stuck output' bug that earlier attempts had blamed on CSS turned out to be a hardcoded tmux target deep in the server code. I traced it to the real root cause and fixed it properly."
+    ],
+    "responsibilities": [
+      "Browser-based terminal with live tmux streaming and scrollback",
+      "Touch-friendly multi-window controls for mobile use",
+      "Root-caused and fixed a scroll bug that had defeated multiple prior attempts"
+    ],
+    "technologies": ["Node.js", "xterm.js", "tmux", "WebSockets", "JavaScript"],
+    "link": "",
+    "images": []
+  },
+  {
+    "id": "f1-parking",
+    "name": "F1 Event Parking Venture",
+    "date": "2025",
+    "summary": "My own event-parking business for Formula 1 weekend — pricing strategy, online listings, and the logistics of running a 12-acre lot.",
+    "fullDescription": [
+      "A venture I ran end to end: event parking for Formula 1 weekend. I set the pricing strategy, managed the online listings, and handled the on-the-ground logistics of operating a 12-acre lot during a high-demand event.",
+      "It's a small business but a real one — a compact example of spotting an opportunity, pricing it, marketing it, and executing the operations to deliver it."
+    ],
+    "responsibilities": [
+      "Pricing strategy for a high-demand event",
+      "Online listings and marketing",
+      "Logistics and operations for a 12-acre lot"
+    ],
+    "technologies": ["Pricing", "Operations", "Logistics", "Marketing"],
+    "link": "",
+    "images": []
+  }
+]

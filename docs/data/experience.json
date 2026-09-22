@@ -1,0 +1,134 @@
+[
+  {
+    "id": "backend-engineering",
+    "company": "Software & Backend Engineering",
+    "title": "Backend Architecture",
+    "date": "Ongoing",
+    "summary": "I design and operate a 240-module Python backend — FastAPI and asyncio, running as production systemd services on Ubuntu — with a REST API surface of 54 route modules feeding a live operations dashboard.",
+    "fullDescription": [
+      "My core engineering work is a large, real production backend: 240 Python modules built on FastAPI and asyncio, running as hardened systemd services on Ubuntu Linux. It exposes a 54-module REST API that powers a live React operations dashboard.",
+      "It's built around a proper shared-service architecture — a central engine registry, an app-state singleton, a governance and kill-switch layer, and a self-healing watchdog with heartbeats. Async background workers run on independent timers: market scans every few minutes, neural inference hourly, and scheduled briefings. I also write the specs behind it: PRDs, API surface docs, and deployment maps."
+    ],
+    "responsibilities": [
+      "240-module Python backend (FastAPI + asyncio) as production systemd services on Ubuntu",
+      "54 REST route modules serving a live React operations dashboard",
+      "Async background worker loops on independent timers (market scans, hourly neural inference, briefings)",
+      "Shared-service architecture: engine registry, app-state singleton, governance/kill-switch layer, self-healing watchdog with heartbeats",
+      "Third-party API integration with rate-limit handling (exchange data, market-intelligence feeds)",
+      "Technical specs, PRDs, API surface docs, and deployment maps"
+    ],
+    "technologies": ["Python", "FastAPI", "asyncio", "REST APIs", "systemd", "Ubuntu Linux"],
+    "images": []
+  },
+  {
+    "id": "frontend-engineering",
+    "company": "Frontend Engineering",
+    "title": "React Dashboards",
+    "date": "Ongoing",
+    "summary": "I build and maintain a React operations dashboard with real-time data panels — command center, analytics, regime performance, and alerts.",
+    "fullDescription": [
+      "On the front end I build and maintain a React dashboard that serves as the control surface for my backend systems. It's organized into real-time panels — a command center, analytics views, regime-performance tracking, and an alerts feed — all driven live by the REST API behind it."
+    ],
+    "responsibilities": [
+      "React dashboard with real-time data panels",
+      "Command center, analytics, regime-performance, and alerts views",
+      "Wired directly to a live REST backend"
+    ],
+    "technologies": ["React", "JavaScript", "REST APIs", "Real-time UI"],
+    "images": []
+  },
+  {
+    "id": "infrastructure-devops",
+    "company": "Infrastructure & DevOps",
+    "title": "Self-Managed Operations",
+    "date": "Ongoing",
+    "summary": "I run my own production stack end to end on Linux servers I administer directly — SSH hardening, nginx, systemd, live incident diagnosis, and a disciplined Git/GitHub deploy workflow.",
+    "fullDescription": [
+      "I own my infrastructure top to bottom. That means real Linux server administration: SSH hardening, user management, file permissions, systemd, and journald log management, with nginx configured as a reverse proxy in front of my services.",
+      "I deploy, restart, and monitor production services and diagnose live incidents when they happen. My Git/GitHub workflow is deliberate — a dev/main branch strategy, deploy keys with scoped access, and I've migrated a live codebase to a fresh repository cleanly. I also drive AI-assisted development directly from the terminal (Claude Code / Codex)."
+    ],
+    "responsibilities": [
+      "Linux server administration: SSH hardening, user management, file permissions, systemd, journald logs",
+      "nginx configured as a reverse proxy",
+      "Deploy, restart, and monitor production services; diagnose live incidents",
+      "Git/GitHub: dev/main branch strategy, scoped deploy keys, live codebase migration to a fresh repo",
+      "AI-assisted development workflows (Claude Code / Codex) in the terminal"
+    ],
+    "technologies": ["Linux", "SSH", "nginx", "systemd", "journald", "Git", "GitHub"],
+    "images": []
+  },
+  {
+    "id": "data-engineering",
+    "company": "Data Engineering",
+    "title": "Pipelines & Databases",
+    "date": "Ongoing",
+    "summary": "I operate MongoDB at scale (~900k documents) and build real-time ingestion pipelines — including streaming and scoring Level 2 order-book data across exchanges.",
+    "fullDescription": [
+      "I run MongoDB at real scale — around 900,000 documents — handling schema design, retention planning, and query and aggregation work.",
+      "Feeding it, I build real-time ingestion pipelines and scheduled data jobs across several sources: market data, research papers, and on-chain data. That includes streaming and scoring Level 2 order-book data across multiple exchanges in real time."
+    ],
+    "responsibilities": [
+      "MongoDB at scale (~900k documents): schema design, retention planning, queries and aggregations",
+      "Real-time ingestion pipelines and scheduled data jobs (market data, research papers, on-chain data)",
+      "Streaming and scoring Level 2 order-book data across exchanges"
+    ],
+    "technologies": ["MongoDB", "Data pipelines", "Aggregation", "Real-time streaming", "Python"],
+    "images": []
+  },
+  {
+    "id": "market-research",
+    "company": "Market Research & Analysis",
+    "title": "Quantitative Research",
+    "date": "Ongoing",
+    "summary": "I enjoy working with markets. I do market-structure and derivatives analysis, run a strategy lab with 64,000+ evaluations, and turn raw data into plain-English briefings.",
+    "fullDescription": [
+      "I like understanding how markets are put together. I do market-structure analysis — support/resistance mapping, order-book imbalance, liquidity walls, and multi-timeframe bias scoring across crypto assets — plus derivatives intelligence like funding rates, open interest, and positioning proxies.",
+      "On the quantitative side I've run a strategy lab with 64,000+ evaluations, with backtesting frameworks and performance metrics (win rate, Sharpe-style scoring, regime analysis). The end goal I care about most is the 'understanding layer': translating raw market data into plain-English briefings, and auditing research claims against live databases so papers get reconciled with actual evidence."
+    ],
+    "responsibilities": [
+      "Market-structure analysis: support/resistance, order-book imbalance, liquidity walls, multi-timeframe bias scoring",
+      "Quantitative strategy research: a strategy lab with 64,000+ evaluations, backtesting, win rate / Sharpe-style scoring, regime analysis",
+      "Derivatives intelligence: funding rates, open interest, positioning proxies",
+      "Research synthesis: raw market data into plain-English briefings",
+      "Auditing research claims against live databases and reconciling papers with evidence"
+    ],
+    "technologies": ["Market structure", "Backtesting", "Statistics", "Derivatives data", "Python"],
+    "images": []
+  },
+  {
+    "id": "business-operations",
+    "company": "Business Operations & Leadership",
+    "title": "Operations & People Management",
+    "date": "Ongoing",
+    "summary": "Co-owner and operator of a family landscaping business, and I've run my own event-parking venture. I know how to lead a team, keep clients happy, and manage the money.",
+    "fullDescription": [
+      "Alongside the engineering, I'm a co-owner and operator of my family's landscaping company — which is really a crash course in running a real business. I handle day-to-day operations: scheduling, crew management, client relations, equipment, and route planning, plus the full financial side — billing, payroll, bookkeeping, budgeting, and financial management.",
+      "I've also run my own venture: an event-parking business for Formula 1 weekend, where I set pricing strategy, managed online listings, and handled the logistics of operating a 12-acre lot. Together these are the practical skills that don't show up in code — leading people, managing money, and making the operational calls that keep a business running."
+    ],
+    "responsibilities": [
+      "Team & people management: leading and scheduling a crew",
+      "Client relations and customer communication",
+      "Financial management: billing, payroll, bookkeeping, budgeting",
+      "Operations & logistics: equipment, route planning, day-to-day coordination",
+      "Ran an F1-weekend event-parking venture: pricing strategy, online listings, logistics for a 12-acre lot"
+    ],
+    "technologies": ["Team leadership", "Operations", "Client relations", "Financial management", "Logistics"],
+    "images": []
+  },
+  {
+    "id": "education",
+    "company": "Education",
+    "title": "Mathematics → Financial Engineering",
+    "date": "Austin Community College",
+    "summary": "Studying mathematics at Austin Community College (preparatory semester), on a track toward financial engineering and quantitative research.",
+    "fullDescription": [
+      "I'm studying mathematics at Austin Community College — currently a preparatory semester — deliberately building the foundation for a track toward financial engineering and quantitative research. It's the formal grounding behind the market and quant work I've been doing hands-on."
+    ],
+    "responsibilities": [
+      "Mathematics coursework (preparatory semester)",
+      "Track toward financial engineering and quantitative research"
+    ],
+    "technologies": ["Mathematics", "Quantitative methods"],
+    "images": []
+  }
+]

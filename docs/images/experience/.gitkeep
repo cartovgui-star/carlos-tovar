@@ -1,0 +1,2 @@
+# Upload job/skill detail photos into this folder, then reference them
+# from docs/data/experience.json like: "images/experience/your-file.jpg"

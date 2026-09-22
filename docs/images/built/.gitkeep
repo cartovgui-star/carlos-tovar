@@ -1,0 +1,3 @@
+# Upload project photos into this folder, then reference them
+# from docs/data/built.json like: "images/built/your-file.jpg"
+# The FIRST image in a project's list is also used as its card thumbnail.
