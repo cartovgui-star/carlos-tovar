@@ -77,6 +77,18 @@ a { color: inherit; }
 .hero h1 { font-size: clamp(38px, 6vw, 60px); margin: 0 0 18px; max-width: 15ch; }
 .hero p { font-size: 19px; color: var(--muted); max-width: 60ch; margin: 0; }
 
+.hero-with-photo { display: flex; align-items: center; gap: 52px; }
+.hero-with-photo .hero-text { flex: 1; min-width: 0; }
+.hero-photo {
+  width: 280px; height: 280px; flex-shrink: 0;
+  object-fit: cover; border-radius: 22px;
+  box-shadow: 0 18px 44px rgba(20,20,19,0.22);
+}
+@media (max-width: 760px) {
+  .hero-with-photo { flex-direction: column-reverse; align-items: flex-start; gap: 24px; }
+  .hero-photo { width: 150px; height: 150px; border-radius: 18px; }
+}
+
 /* ---------- Section titles ---------- */
 .section { padding: 24px 0 72px; }
 .section-title { font-size: 15px; text-transform: uppercase; letter-spacing: 0.12em;
