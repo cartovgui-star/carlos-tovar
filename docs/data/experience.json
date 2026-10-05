@@ -4,14 +4,14 @@
     "company": "Software & Backend Engineering",
     "title": "Backend Architecture",
     "date": "Ongoing",
-    "summary": "I design and operate a 240-module Python backend — FastAPI and asyncio, running as production systemd services on Ubuntu — with a REST API surface of 54 route modules feeding a live operations dashboard.",
+    "summary": "I design and operate a 295-file Python backend across 10 packages — FastAPI and asyncio, running as production systemd services on Ubuntu — with a 557-route REST API feeding a live operations dashboard.",
     "fullDescription": [
-      "My core engineering work is a large, real production backend: 240 Python modules built on FastAPI and asyncio, running as hardened systemd services on Ubuntu Linux. It exposes a 54-module REST API that powers a live React operations dashboard.",
+      "My core engineering work is a large, real production backend: 295 Python files organized into 10 packages, built on FastAPI and asyncio, running as hardened systemd services on Ubuntu Linux. It exposes a 557-route REST API that powers a live React operations dashboard.",
       "It's built around a proper shared-service architecture — a central engine registry, an app-state singleton, a governance and kill-switch layer, and a self-healing watchdog with heartbeats. Async background workers run on independent timers: market scans every few minutes, neural inference hourly, and scheduled briefings. I also write the specs behind it: PRDs, API surface docs, and deployment maps."
     ],
     "responsibilities": [
-      "240-module Python backend (FastAPI + asyncio) as production systemd services on Ubuntu",
-      "54 REST route modules serving a live React operations dashboard",
+      "295-file Python backend across 10 packages (FastAPI + asyncio) as production systemd services on Ubuntu",
+      "557-route REST API serving a live React operations dashboard",
       "Async background worker loops on independent timers (market scans, hourly neural inference, briefings)",
       "Shared-service architecture: engine registry, app-state singleton, governance/kill-switch layer, self-healing watchdog with heartbeats",
       "Third-party API integration with rate-limit handling (exchange data, market-intelligence feeds)",
