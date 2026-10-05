@@ -1,12 +1,12 @@
 [
   {
     "id": "aeon",
-    "name": "AEON",
-    "date": "2025 – Present",
+    "name": "Market Data Platform",
+    "date": "",
     "summary": "My flagship system: a 295-file Python backend across 10 packages with a live React dashboard that ingests market data around the clock, runs a governed engine architecture, and turns raw data into plain-English briefings.",
     "fullDescription": [
-      "AEON is the system I've poured the most into. Underneath it is a 295-file Python backend across 10 packages (FastAPI + asyncio) running as production systemd services on Ubuntu, exposing a 557-route REST API to a live React operations dashboard — command center, analytics, regime performance, alerts, and a manual paper-trading station with TradingView-style charting.",
-      "It's built for autonomy and safety: a central engine registry, an app-state singleton, a governance/kill-switch layer, and a self-healing watchdog with heartbeats. Async workers run on their own timers — market scans every few minutes, neural inference hourly, scheduled briefings. It stores ~900k documents in MongoDB and streams and scoring Level 2 order-book data across exchanges.",
+      "This is the system I've poured the most into. Underneath it is a 295-file Python backend across 10 packages (FastAPI + asyncio) running as production systemd services on Ubuntu, exposing a 557-route REST API to a live React operations dashboard \u2014 command center, analytics, regime performance, alerts, and a manual paper-trading station with TradingView-style charting.",
+      "It's built for autonomy and safety: a central engine registry, an app-state singleton, a governance/kill-switch layer, and a self-healing watchdog with heartbeats. Async workers run on their own timers \u2014 market scans every few minutes, neural inference hourly, scheduled briefings. It stores ~900k documents in MongoDB and streams and scoring Level 2 order-book data across exchanges.",
       "The end goal I care about most is the 'understanding layer': taking all of that raw market data and turning it into clear, plain-English briefings I can actually reason from."
     ],
     "responsibilities": [
@@ -25,16 +25,16 @@
       "systemd",
       "Ubuntu"
     ],
-    "link": "https://aeontrading.xyz",
+    "link": "",
     "images": []
   },
   {
     "id": "freeflow",
     "name": "freeflow",
-    "date": "2026",
-    "summary": "A private, on-device Windows voice-dictation app — local transcription with faster-whisper, optional Ollama cleanup, a global hotkey, native UI, and a packaged Windows installer.",
+    "date": "",
+    "summary": "A private, on-device Windows voice-dictation app \u2014 local transcription with faster-whisper, optional Ollama cleanup, a global hotkey, native UI, and a packaged Windows installer.",
     "fullDescription": [
-      "freeflow is a shipped desktop product: a private, fully on-device voice-dictation app for Windows. Everything runs locally — faster-whisper handles transcription on-device, with optional Ollama-based text cleanup — so nothing has to leave your machine.",
+      "freeflow is a shipped desktop product: a private, fully on-device voice-dictation app for Windows. Everything runs locally \u2014 faster-whisper handles transcription on-device, with optional Ollama-based text cleanup \u2014 so nothing has to leave your machine.",
       "It has a global hotkey, a native UI, and a packaged Windows installer with proper release management. It's a complete, end-to-end product rather than a script: built in Python, packaged, and released."
     ],
     "responsibilities": [
@@ -56,10 +56,10 @@
   {
     "id": "tovar-terminal",
     "name": "TOVAR Mobile Terminal",
-    "date": "2026",
+    "date": "",
     "summary": "A custom browser-based mobile terminal that lets me manage my production servers from my phone over a live tmux session.",
     "fullDescription": [
-      "TOVAR is a custom web terminal (Node.js + xterm.js, backed by tmux) that gives me full, comfortable control of my servers from a phone browser — scrollback, multiple windows, and touch-friendly controls.",
+      "TOVAR is a custom web terminal (Node.js + xterm.js, backed by tmux) that gives me full, comfortable control of my servers from a phone browser \u2014 scrollback, multiple windows, and touch-friendly controls.",
       "It's also a good example of how I debug: a long-standing 'stuck output' bug that earlier attempts had blamed on CSS turned out to be a hardcoded tmux target deep in the server code. I traced it to the real root cause and fixed it properly."
     ],
     "responsibilities": [
