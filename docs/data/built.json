@@ -3,15 +3,15 @@
     "id": "aeon",
     "name": "AEON",
     "date": "2025 – Present",
-    "summary": "My flagship system: a 240-module Python backend with a live React dashboard that ingests market data around the clock, runs a governed engine architecture, and turns raw data into plain-English briefings.",
+    "summary": "My flagship system: a 295-file Python backend across 10 packages with a live React dashboard that ingests market data around the clock, runs a governed engine architecture, and turns raw data into plain-English briefings.",
     "fullDescription": [
-      "AEON is the system I've poured the most into. Underneath it is a 240-module Python backend (FastAPI + asyncio) running as production systemd services on Ubuntu, exposing 54 REST route modules to a live React operations dashboard — command center, analytics, regime performance, and alerts.",
-      "It's built for autonomy and safety: a central engine registry, an app-state singleton, a governance/kill-switch layer, and a self-healing watchdog with heartbeats. Async workers run on their own timers — market scans every few minutes, neural inference hourly, scheduled briefings. It stores ~900k documents in MongoDB and streams and scores Level 2 order-book data across exchanges.",
+      "AEON is the system I've poured the most into. Underneath it is a 295-file Python backend across 10 packages (FastAPI + asyncio) running as production systemd services on Ubuntu, exposing a 557-route REST API to a live React operations dashboard — command center, analytics, regime performance, alerts, and a manual paper-trading station with TradingView-style charting.",
+      "It's built for autonomy and safety: a central engine registry, an app-state singleton, a governance/kill-switch layer, and a self-healing watchdog with heartbeats. Async workers run on their own timers — market scans every few minutes, neural inference hourly, scheduled briefings. It stores ~900k documents in MongoDB and streams and scoring Level 2 order-book data across exchanges.",
       "The end goal I care about most is the 'understanding layer': taking all of that raw market data and turning it into clear, plain-English briefings I can actually reason from."
     ],
     "responsibilities": [
-      "240-module Python backend (FastAPI + asyncio) as production systemd services",
-      "54-module REST API feeding a real-time React dashboard",
+      "295-file Python backend across 10 packages (FastAPI + asyncio) as production systemd services",
+      "557-route REST API feeding a real-time React dashboard with paper-trading station",
       "Engine registry, governance/kill-switch layer, and self-healing watchdog with heartbeats",
       "~900k-document MongoDB store with real-time order-book ingestion and scoring",
       "Async workers on independent timers plus plain-English research briefings"
